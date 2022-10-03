@@ -1,0 +1,303 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: grey;
+
+}
+
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 64px;
+}
+
+.navbar .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.logo > .bold {
+    font-weight: bold;
+}
+
+.logo > .normal {
+    color: grey;
+}
+
+.navbar-button > a {
+    color: black;
+    text-decoration: none;
+    margin-right: 16px;
+    
+    
+}
+
+.navbar-button > .singin {
+    color: black;
+    margin-right: 24px;
+}
+
+/* body-1 */
+
+.body-1 {
+    display: flex;
+    background-color: lightgrey;
+    
+}
+
+.banner > img {
+    object-fit: fill;
+    width:655.16px;
+    height: 484.23px;
+    object-fit: cover;
+    padding: 32px 24px;
+}
+
+
+.learn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    
+.learn > h1 {
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.learn > p {
+    line-height: 24px;
+    color: black;
+}
+
+
+.learn > button {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(49, 48, 47);
+    font-size: 16px;
+    color: white;
+    border: none;
+    justify-content: center;
+    padding: 8px 124px;
+    margin: 24px 0;
+    width: 60px;
+}
+
+/* body-2 */
+
+.body-2 {
+    display: flex;
+}
+
+.body-2 {
+    width: 60%;
+}
+
+.body-2 .info img {
+    width:610px;
+    height: 300px;
+    object-fit: cover;
+    margin: 32px 24px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info h2 {
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+.info p {
+    margin-left: 24px;
+    margin-bottom: 30px;
+    width: 532.219px;
+}
+
+
+/* small pic right */
+.info-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top :0px;
+}
+
+.info-right .picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.small-pic2 {
+    width: 150px;
+}
+
+.date {
+    margin: 8px 0;
+}
+
+.pic-info {
+    margin-left: 10px;
+    width: 300px;
+}
+
+.pic-info > h3 {
+    font-weight: bold;
+}
+
+.pic-info > .read-more {
+    text-decoration: none;
+}
+
+
+.start-learning {
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+    background-color: lightgray;
+}
+
+
+/* start learning */
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    margin-left: 72px;
+
+}
+
+.gallery-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    margin-left: 72px;
+}
+
+.mini-selector {
+    margin-top: 0px;
+    margin-right:32px;
+    margin-bottom:32px;
+    height: auto;
+    background-color: white;
+    width: 300px;
+}
+
+.mini-selector > img {
+    width: 300px;
+}
+
+.mini-selector > h3 {
+    margin: 16px 16px;
+}
+
+
+.course {
+    line-height: 16px;
+    margin-left: 16px;
+    
+}
+
+.detail-1 {
+    /* background-color: aqua; */
+    width: 200px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-left: 16px;
+}
+
+
+.detail-2 {
+    margin-bottom: 24px;
+    margin-top: 8px;
+    margin-left: 16px;
+}
+
+
+/* thesis exhibit */
+
+.thesis {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0;
+}
+
+.video {
+    display: flex;
+}
+
+.video-left {
+    width: 655px;
+
+    margin-bottom: 32px;
+}
+
+.video-left > video {
+    width: 607px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+.video-left > h3 {
+    margin-left: 24px;
+    margin-bottom: 8px;
+}
+
+.video-left > p {
+    margin-left: 24px;
+    width: 600px;
+}
+
+
+/* video right */
+.blog-1 {
+    display: flex;
+    align-items: center;
+}
+
+.blog-2 {
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
+
+.frame > img {
+    width: 120px;
+    margin: 16px;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+.team > a {
+    text-decoration: none;
+    margin-right: 24px;
+}
